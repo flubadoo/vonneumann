@@ -3,8 +3,8 @@
 Simple Von Neumann Machine simulator made using Scheme/Racket.
 Input should be in the format of:
 
+'''scheme
 (define prog2
-
   '((start: input val)
     (load val)
     (skipzero)
@@ -19,7 +19,8 @@ Input should be in the format of:
     (val: data 0)
     (pointer: data table)
     (table: data 0)))
-    
+'''
+
 And running the procedure assemble on this yields:
 
 (assemble prog2 0) =>
