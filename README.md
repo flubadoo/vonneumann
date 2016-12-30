@@ -4,9 +4,7 @@ Simple Von Neumann Machine simulator made using Scheme/Racket.
 Input should be in the format of:
 
 (define prog2
-
   '((start: input val)
-  
     (load val)
     (skipzero)
     (jump continue)
